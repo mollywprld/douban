@@ -1,0 +1,47 @@
+{
+  "test_config": {
+    "movie_limit": 10,
+    "timestamp": 1778754367.5172114
+  },
+  "requests_version": {
+    "version": "requests",
+    "success": true,
+    "execution_time": 144.97251343727112,
+    "memory_used": 0,
+    "data_count": 10,
+    "stdout": "",
+    "stderr": "8:23:37 [INFO] Saved poster: posters_requests\\星际穿越.webp\n2026-05-14 18:23:41 [INFO] Processing movie 8/10: 这个杀手不太冷\n2026-05-14 18:23:41 [INFO] Loading detail page for 这个杀手不太冷\n2026-05-14 18:23:43 [INFO] Loading comments page: https://movie.douban.com/subject/1295644/comments?status=P\n2026-05-14 18:23:47 [INFO] Saved poster: posters_requests\\这个杀手不太冷.webp\n2026-05-14 18:23:50 [INFO] Processing movie 9/10: 盗梦空间\n2026-05-14 18:23:50 [INFO] Loading detail page for 盗梦空间\n2026-05-14 18:23:55 [INFO] Loading comments page: https://movie.douban.com/subject/3541415/comments?status=P\n2026-05-14 18:23:58 [INFO] Saved poster: posters_requests\\盗梦空间.webp\n2026-05-14 18:23:59 [INFO] Processing movie 10/10: 楚门的世界\n2026-05-14 18:23:59 [INFO] Loading detail page for 楚门的世界\n2026-05-14 18:24:04 [INFO] Loading comments page: https://movie.douban.com/subject/1292064/comments?status=P\n2026-05-14 18:24:09 [INFO] Saved poster: posters_requests\\楚门的世界.webp\n2026-05-14 18:24:15 [INFO] Saved 10 movies to douban_requests.json\n",
+    "return_code": 0
+  },
+  "scrapy_version": {
+    "version": "scrapy",
+    "success": true,
+    "execution_time": 107.1252851486206,
+    "memory_used": 0,
+    "data_count": 10,
+    "stdout": "",
+    "stderr": "4 18:26:05 [INFO] Database connection closed\n2026-05-14 18:26:07 [INFO] Closed Selenium browser\n2026-05-14 18:26:07 [INFO] Dumping Scrapy stats:\n{'downloader/request_bytes': 4266,\n 'downloader/request_count': 9,\n 'downloader/request_method_count/GET': 9,\n 'downloader/response_bytes': 2222957,\n 'downloader/response_count': 30,\n 'downloader/response_status_count/200': 30,\n 'elapsed_time_seconds': 103.437037,\n 'finish_reason': 'finished',\n 'finish_time': datetime.datetime(2026, 5, 14, 10, 26, 5, 176623, tzinfo=datetime.timezone.utc),\n 'item_scraped_count': 10,\n 'items_per_minute': 5.825242718446602,\n 'log_count/INFO': 19,\n 'request_depth_max': 3,\n 'response_received_count': 30,\n 'responses_per_minute': 17.475728155339805,\n 'scheduler/dequeued': 30,\n 'scheduler/dequeued/memory': 30,\n 'scheduler/enqueued': 30,\n 'scheduler/enqueued/memory': 30,\n 'start_time': datetime.datetime(2026, 5, 14, 10, 24, 21, 739586, tzinfo=datetime.timezone.utc)}\n2026-05-14 18:26:07 [INFO] Spider closed (finished)\n",
+    "return_code": 0
+  },
+  "performance_comparison": {
+    "time_ratio": 1.3532987402193892,
+    "memory_ratio": null,
+    "success_rate_requests": 1,
+    "success_rate_scrapy": 1,
+    "data_completeness_requests": 1.0,
+    "data_completeness_scrapy": 1.0
+  },
+  "database_comparison": {
+    "requests_db": {
+      "size_mb": 0,
+      "movies_count": 0,
+      "comments_count": 0
+    },
+    "scrapy_db": {
+      "size_mb": 0.05,
+      "movies_count": 10,
+      "comments_count": 150
+    },
+    "size_ratio": null
+  }
+}
