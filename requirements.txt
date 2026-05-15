@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+selenium
+webdriver-manager
+pandas
+matplotlib
+seaborn
+wordcloud
+jieba
+snownlp
+pymysql
+tqdm
+openpyxl

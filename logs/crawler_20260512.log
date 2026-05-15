@@ -1,0 +1,97 @@
+2026-05-12 13:44:57,159 - INFO - ✅ MySQL 连接成功
+2026-05-12 13:44:57,159 - INFO - 📖 读取SQL文件: d:\douban_movie_crawler\db\create_tables.sql
+2026-05-12 13:44:57,217 - INFO - ✅ 所有SQL执行完成！
+2026-05-12 13:44:57,219 - INFO - 📋 douban库中的表: (('comments',), ('movies',))
+2026-05-12 13:44:57,219 - INFO - 🔌 数据库连接已关闭
+2026-05-12 14:12:57,962 - INFO - === 豆瓣电影Top250 爬虫分析系统启动 ===
+2026-05-12 14:12:58,232 - ERROR - 爬取失败 https://movie.douban.com/top250?start=0&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:12:58,525 - ERROR - 爬取失败 https://movie.douban.com/top250?start=25&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:12:58,884 - ERROR - 爬取失败 https://movie.douban.com/top250?start=50&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:12:59,082 - ERROR - 爬取失败 https://movie.douban.com/top250?start=75&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:12:59,322 - ERROR - 爬取失败 https://movie.douban.com/top250?start=100&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:12:59,573 - ERROR - 爬取失败 https://movie.douban.com/top250?start=125&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:12:59,791 - ERROR - 爬取失败 https://movie.douban.com/top250?start=150&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:13:00,097 - ERROR - 爬取失败 https://movie.douban.com/top250?start=175&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:13:00,301 - ERROR - 爬取失败 https://movie.douban.com/top250?start=200&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:13:00,550 - ERROR - 爬取失败 https://movie.douban.com/top250?start=225&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:13:00,551 - INFO - 数据已保存到 data/raw\douban_top250_raw.json
+2026-05-12 14:14:52,832 - INFO - === 豆瓣电影Top250 爬虫分析系统启动 ===
+2026-05-12 14:14:53,085 - ERROR - 爬取失败 https://movie.douban.com/top250?start=0&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:14:53,317 - ERROR - 爬取失败 https://movie.douban.com/top250?start=25&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:14:53,580 - ERROR - 爬取失败 https://movie.douban.com/top250?start=50&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:14:53,987 - ERROR - 爬取失败 https://movie.douban.com/top250?start=75&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:14:54,209 - ERROR - 爬取失败 https://movie.douban.com/top250?start=100&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:14:54,429 - ERROR - 爬取失败 https://movie.douban.com/top250?start=125&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:14:54,631 - ERROR - 爬取失败 https://movie.douban.com/top250?start=150&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:14:54,925 - ERROR - 爬取失败 https://movie.douban.com/top250?start=175&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:14:55,165 - ERROR - 爬取失败 https://movie.douban.com/top250?start=200&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:14:55,378 - ERROR - 爬取失败 https://movie.douban.com/top250?start=225&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:14:55,379 - INFO - 数据已保存到 data/raw\douban_top250_raw.json
+2026-05-12 14:14:55,381 - ERROR - ❌ 没有爬到任何数据，无法清洗
+2026-05-12 14:22:47,343 - INFO - === 豆瓣电影Top250 爬虫分析系统启动 ===
+2026-05-12 14:22:47,693 - ERROR - 爬取失败 https://movie.douban.com/top250?start=0&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:22:48,058 - ERROR - 爬取失败 https://movie.douban.com/top250?start=25&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:22:48,420 - ERROR - 爬取失败 https://movie.douban.com/top250?start=50&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:22:48,727 - ERROR - 爬取失败 https://movie.douban.com/top250?start=75&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:22:49,010 - ERROR - 爬取失败 https://movie.douban.com/top250?start=100&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:22:49,316 - ERROR - 爬取失败 https://movie.douban.com/top250?start=125&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:22:49,703 - ERROR - 爬取失败 https://movie.douban.com/top250?start=150&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:22:50,036 - ERROR - 爬取失败 https://movie.douban.com/top250?start=175&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:22:50,320 - ERROR - 爬取失败 https://movie.douban.com/top250?start=200&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:22:50,610 - ERROR - 爬取失败 https://movie.douban.com/top250?start=225&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:22:50,611 - INFO - 数据已保存到 data/raw\douban_top250_raw.json
+2026-05-12 14:22:50,613 - ERROR - ❌ 没有爬到任何数据，无法清洗
+2026-05-12 14:37:44,736 - INFO - === 豆瓣电影Top250 爬虫分析系统启动 ===
+2026-05-12 14:37:44,972 - ERROR - 爬取失败 https://movie.douban.com/top250?start=0&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:37:45,160 - ERROR - 爬取失败 https://movie.douban.com/top250?start=25&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:37:45,405 - ERROR - 爬取失败 https://movie.douban.com/top250?start=50&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:37:45,616 - ERROR - 爬取失败 https://movie.douban.com/top250?start=75&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:37:45,834 - ERROR - 爬取失败 https://movie.douban.com/top250?start=100&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:37:46,039 - ERROR - 爬取失败 https://movie.douban.com/top250?start=125&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:37:46,248 - ERROR - 爬取失败 https://movie.douban.com/top250?start=150&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:37:46,579 - ERROR - 爬取失败 https://movie.douban.com/top250?start=175&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:37:46,782 - ERROR - 爬取失败 https://movie.douban.com/top250?start=200&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:37:46,979 - ERROR - 爬取失败 https://movie.douban.com/top250?start=225&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:37:46,980 - INFO - 数据已保存到 data/raw\douban_top250_raw.json
+2026-05-12 14:37:46,982 - ERROR - ❌ 没有爬到任何数据，无法清洗
+2026-05-12 14:38:10,261 - INFO - === 豆瓣电影Top250 爬虫分析系统启动 ===
+2026-05-12 14:38:10,498 - ERROR - 爬取失败 https://movie.douban.com/top250?start=0&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:38:10,718 - ERROR - 爬取失败 https://movie.douban.com/top250?start=25&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:38:10,959 - ERROR - 爬取失败 https://movie.douban.com/top250?start=50&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:38:11,159 - ERROR - 爬取失败 https://movie.douban.com/top250?start=75&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:38:11,341 - ERROR - 爬取失败 https://movie.douban.com/top250?start=100&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:38:11,659 - ERROR - 爬取失败 https://movie.douban.com/top250?start=125&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:38:11,910 - ERROR - 爬取失败 https://movie.douban.com/top250?start=150&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:38:12,151 - ERROR - 爬取失败 https://movie.douban.com/top250?start=175&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:38:12,354 - ERROR - 爬取失败 https://movie.douban.com/top250?start=200&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:38:12,572 - ERROR - 爬取失败 https://movie.douban.com/top250?start=225&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:38:12,574 - INFO - 数据已保存到 data/raw\douban_top250_raw.json
+2026-05-12 14:38:12,575 - ERROR - ❌ 没有爬到任何数据，无法清洗
+2026-05-12 14:40:16,592 - INFO - === 豆瓣电影Top250 爬虫分析系统启动 ===
+2026-05-12 14:40:16,991 - ERROR - 爬取失败 https://movie.douban.com/top250?start=0&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:40:17,225 - ERROR - 爬取失败 https://movie.douban.com/top250?start=25&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:40:17,513 - ERROR - 爬取失败 https://movie.douban.com/top250?start=50&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:40:17,741 - ERROR - 爬取失败 https://movie.douban.com/top250?start=75&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:40:18,020 - ERROR - 爬取失败 https://movie.douban.com/top250?start=100&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:40:18,260 - ERROR - 爬取失败 https://movie.douban.com/top250?start=125&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:40:18,488 - ERROR - 爬取失败 https://movie.douban.com/top250?start=150&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:40:18,720 - ERROR - 爬取失败 https://movie.douban.com/top250?start=175&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:40:18,951 - ERROR - 爬取失败 https://movie.douban.com/top250?start=200&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:40:19,192 - ERROR - 爬取失败 https://movie.douban.com/top250?start=225&filter=：'NoneType' object has no attribute 'find_all'
+2026-05-12 14:40:19,193 - INFO - 数据已保存到 data/raw\douban_top250_raw.json
+2026-05-12 14:40:19,196 - ERROR - ❌ 没有爬到任何数据，无法清洗
+2026-05-12 14:49:57,853 - INFO - === 豆瓣电影Top250 爬虫分析系统启动 ===
+2026-05-12 16:16:07,956 - INFO - === 豆瓣电影Top250 爬虫分析系统启动 ===
+2026-05-12 16:33:30,825 - INFO - === 豆瓣电影Top250 爬虫分析系统启动 ===
+2026-05-12 16:33:42,020 - ERROR - 爬取失败 https://movie.douban.com/top250?start=0&filter=：list index out of range
+2026-05-12 16:33:44,664 - ERROR - 爬取失败 https://movie.douban.com/top250?start=25&filter=：list index out of range
+2026-05-12 16:33:47,519 - ERROR - 爬取失败 https://movie.douban.com/top250?start=50&filter=：list index out of range
+2026-05-12 16:33:50,104 - ERROR - 爬取失败 https://movie.douban.com/top250?start=75&filter=：list index out of range
+2026-05-12 16:33:52,780 - ERROR - 爬取失败 https://movie.douban.com/top250?start=100&filter=：list index out of range
+2026-05-12 16:33:55,453 - ERROR - 爬取失败 https://movie.douban.com/top250?start=125&filter=：list index out of range
+2026-05-12 16:33:58,062 - ERROR - 爬取失败 https://movie.douban.com/top250?start=150&filter=：list index out of range
+2026-05-12 16:34:01,639 - ERROR - 爬取失败 https://movie.douban.com/top250?start=175&filter=：list index out of range
+2026-05-12 16:34:04,383 - ERROR - 爬取失败 https://movie.douban.com/top250?start=200&filter=：list index out of range
+2026-05-12 16:34:06,974 - ERROR - 爬取失败 https://movie.douban.com/top250?start=225&filter=：list index out of range
+2026-05-12 16:34:09,796 - INFO - 数据已保存到 data/raw\douban_top250_raw.json
+2026-05-12 16:34:09,827 - ERROR - ❌ 没有爬到任何数据，无法清洗

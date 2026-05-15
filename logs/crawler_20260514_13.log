@@ -1,0 +1,1183 @@
+2026-05-14 13:41:45 - douban_crawler - main.py:34 - INFO - === 豆瓣电影Top250 爬虫分析系统启动 ===
+2026-05-14 13:41:45 - douban_crawler - main.py:27 - ERROR - ❌ 缺少核心依赖包：['beautifulsoup4']
+2026-05-14 13:41:45 - douban_crawler - main.py:28 - ERROR - 请执行以下命令安装：pip install beautifulsoup4
+2026-05-14 13:41:45 - douban_crawler - main.py:38 - ERROR - ❌ 依赖检查失败，退出程序
+2026-05-14 13:43:29 - douban_crawler - main.py:14 - INFO - === 豆瓣电影Top250 爬虫分析系统启动 ===
+2026-05-14 13:43:29 - douban_crawler - main.py:21 - INFO - 📌 开始爬取豆瓣Top250数据...
+2026-05-14 13:43:29 - douban_crawler - proxy_pool.py:10 - INFO - 代理池为空，使用本地IP
+2026-05-14 13:43:31 - douban_crawler - selenium_crawler.py:56 - INFO - Selenium 初始化成功
+2026-05-14 13:43:31 - douban_crawler - requests_crawler.py:197 - INFO - 开始爬取豆瓣Top250全部数据...
+2026-05-14 13:43:31 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：肖申克的救赎 月黑高飞_港_    刺激1995_台_.jpg
+2026-05-14 13:43:37 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292052/comments?sort=new_score&status=P
+2026-05-14 13:43:43 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:43:44 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292052/ | 短评数：15
+2026-05-14 13:43:44 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：霸王别姬 再见，我的妾    Farewell My Con.jpg
+2026-05-14 13:43:51 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291546/comments?sort=new_score&status=P
+2026-05-14 13:43:56 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:43:57 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291546/ | 短评数：15
+2026-05-14 13:43:57 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：泰坦尼克号 铁达尼号_港  台_.jpg
+2026-05-14 13:44:03 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292722/comments?sort=new_score&status=P
+2026-05-14 13:44:09 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:44:10 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292722/ | 短评数：15
+2026-05-14 13:44:10 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：阿甘正传 福雷斯特·冈普.jpg
+2026-05-14 13:44:15 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292720/comments?sort=new_score&status=P
+2026-05-14 13:44:21 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:44:21 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292720/ | 短评数：15
+2026-05-14 13:44:21 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：千与千寻 神隐少女_台_    千与千寻的神隐.jpg
+2026-05-14 13:44:26 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291561/comments?sort=new_score&status=P
+2026-05-14 13:44:31 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:44:32 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291561/ | 短评数：15
+2026-05-14 13:44:32 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：美丽人生 一个快乐的传说_港_    Life Is Bea.jpg
+2026-05-14 13:44:38 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292063/comments?sort=new_score&status=P
+2026-05-14 13:44:42 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:44:43 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292063/ | 短评数：15
+2026-05-14 13:44:43 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：星际穿越 星际启示录_港_    星际效应_台_.jpg
+2026-05-14 13:44:48 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1889243/comments?sort=new_score&status=P
+2026-05-14 13:44:54 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:44:55 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1889243/ | 短评数：15
+2026-05-14 13:44:55 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：这个杀手不太冷 终极追杀令_台_    杀手莱昂.jpg
+2026-05-14 13:45:00 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1295644/comments?sort=new_score&status=P
+2026-05-14 13:45:05 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:45:06 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1295644/ | 短评数：15
+2026-05-14 13:45:06 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：盗梦空间 潜行凶间_港_    全面启动_台_.jpg
+2026-05-14 13:45:12 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3541415/comments?sort=new_score&status=P
+2026-05-14 13:45:18 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:45:18 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3541415/ | 短评数：15
+2026-05-14 13:45:18 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：楚门的世界 真人Show_港_    真人戏.jpg
+2026-05-14 13:45:24 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292064/comments?sort=new_score&status=P
+2026-05-14 13:45:30 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:45:30 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292064/ | 短评数：15
+2026-05-14 13:45:30 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：辛德勒的名单 舒特拉的名单_港_    辛德勒名单.jpg
+2026-05-14 13:45:37 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1295124/comments?sort=new_score&status=P
+2026-05-14 13:45:41 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:45:42 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1295124/ | 短评数：15
+2026-05-14 13:45:42 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：忠犬八公的故事 秋田犬八千_港_    忠犬小八_台_.jpg
+2026-05-14 13:45:48 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3011091/comments?sort=new_score&status=P
+2026-05-14 13:45:54 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:45:54 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3011091/ | 短评数：15
+2026-05-14 13:45:54 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：海上钢琴师 声光伴我飞_港_    一九零零的传奇.jpg
+2026-05-14 13:46:01 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292001/comments?sort=new_score&status=P
+2026-05-14 13:46:07 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:46:07 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292001/ | 短评数：15
+2026-05-14 13:46:07 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：疯狂动物城 优兽大都会_港_    动物方城市_台_.jpg
+2026-05-14 13:46:13 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25662329/comments?sort=new_score&status=P
+2026-05-14 13:46:18 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:46:19 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25662329/ | 短评数：15
+2026-05-14 13:46:19 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：三傻大闹宝莱坞 三个傻瓜_台_    作死不离3兄弟_港_.jpg
+2026-05-14 13:46:26 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3793023/comments?sort=new_score&status=P
+2026-05-14 13:46:32 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:46:32 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3793023/ | 短评数：15
+2026-05-14 13:46:32 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：机器人总动员 太空奇兵·威E_港_    瓦力_台_.jpg
+2026-05-14 13:46:38 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/2131459/comments?sort=new_score&status=P
+2026-05-14 13:46:43 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:46:44 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/2131459/ | 短评数：15
+2026-05-14 13:46:44 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：放牛班的春天 歌声伴我心_港_    唱诗班男孩.jpg
+2026-05-14 13:46:49 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291549/comments?sort=new_score&status=P
+2026-05-14 13:46:55 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:46:55 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291549/ | 短评数：15
+2026-05-14 13:46:55 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：无间道 Infernal Affairs    Mou ga.jpg
+2026-05-14 13:47:03 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1307914/comments?sort=new_score&status=P
+2026-05-14 13:47:09 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:47:10 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1307914/ | 短评数：15
+2026-05-14 13:47:10 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：控方证人 雄才伟略    情妇.jpg
+2026-05-14 13:47:14 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1296141/comments?sort=new_score&status=P
+2026-05-14 13:47:20 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:47:21 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1296141/ | 短评数：15
+2026-05-14 13:47:21 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：寻梦环游记 玩转极乐园_港_    可可夜总会_台_.jpg
+2026-05-14 13:47:28 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/20495023/comments?sort=new_score&status=P
+2026-05-14 13:47:33 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:47:34 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/20495023/ | 短评数：15
+2026-05-14 13:47:34 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：大话西游之大圣娶亲 西游记完结篇仙履奇缘    齐天大圣西游.jpg
+2026-05-14 13:47:40 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292213/comments?sort=new_score&status=P
+2026-05-14 13:47:45 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:47:45 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292213/ | 短评数：15
+2026-05-14 13:47:45 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：熔炉 无声呐喊_港_    漩涡.jpg
+2026-05-14 13:47:52 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/5912992/comments?sort=new_score&status=P
+2026-05-14 13:47:57 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:47:58 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/5912992/ | 短评数：15
+2026-05-14 13:47:58 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：触不可及 闪亮人生_港_    逆转人生_台_.jpg
+2026-05-14 13:48:04 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/6786002/comments?sort=new_score&status=P
+2026-05-14 13:48:10 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:48:11 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/6786002/ | 短评数：15
+2026-05-14 13:48:11 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：教父 Mario Puzo_s The Godfather.jpg
+2026-05-14 13:48:17 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291841/comments?sort=new_score&status=P
+2026-05-14 13:48:23 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:48:24 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291841/ | 短评数：15
+2026-05-14 13:48:24 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：末代皇帝 末代皇帝溥仪_港_    L_ultimo imp.jpg
+2026-05-14 13:48:30 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1293172/comments?sort=new_score&status=P
+2026-05-14 13:48:36 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:48:36 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1293172/ | 短评数：15
+2026-05-14 13:48:36 - douban_crawler - requests_crawler.py:105 - INFO - 成功爬取：https://movie.douban.com/top250?start=0&filter= | 总数：25 | 成功解析：25
+2026-05-14 13:48:36 - douban_crawler - base_crawler.py:19 - INFO - 休眠 3.09 秒
+2026-05-14 13:48:40 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：哈利·波特与魔法石 哈利波特1：神秘的魔法石_港  台_.jpg
+2026-05-14 13:48:46 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1295038/comments?sort=new_score&status=P
+2026-05-14 13:48:51 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:48:52 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1295038/ | 短评数：15
+2026-05-14 13:48:52 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：当幸福来敲门 寻找快乐的故事_港_    追求快乐.jpg
+2026-05-14 13:48:59 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1849031/comments?sort=new_score&status=P
+2026-05-14 13:49:03 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:49:04 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1849031/ | 短评数：15
+2026-05-14 13:49:04 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：龙猫 邻居托托罗    邻家的豆豆龙.jpg
+2026-05-14 13:49:10 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291560/comments?sort=new_score&status=P
+2026-05-14 13:49:15 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:49:16 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291560/ | 短评数：15
+2026-05-14 13:49:16 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：活着 人生    Lifetimes.jpg
+2026-05-14 13:49:22 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292365/comments?sort=new_score&status=P
+2026-05-14 13:49:28 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:49:29 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292365/ | 短评数：15
+2026-05-14 13:49:29 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：怦然心动 萌动青春    青春萌动.jpg
+2026-05-14 13:49:35 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3319755/comments?sort=new_score&status=P
+2026-05-14 13:49:41 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:49:42 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3319755/ | 短评数：15
+2026-05-14 13:49:42 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：蝙蝠侠：黑暗骑士 蝙蝠侠前传2：黑暗骑士    黑暗骑士_台.jpg
+2026-05-14 13:49:46 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1851857/comments?sort=new_score&status=P
+2026-05-14 13:49:53 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:49:54 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1851857/ | 短评数：15
+2026-05-14 13:49:54 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：指环王3：王者无敌 魔戒三部曲：王者再临_台  港_.jpg
+2026-05-14 13:50:00 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291552/comments?sort=new_score&status=P
+2026-05-14 13:50:05 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:50:06 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291552/ | 短评数：15
+2026-05-14 13:50:06 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：我不是药神 中国药神    印度药神.jpg
+2026-05-14 13:50:14 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/26752088/comments?sort=new_score&status=P
+2026-05-14 13:50:19 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:50:20 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/26752088/ | 短评数：15
+2026-05-14 13:50:20 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：乱世佳人 飘.jpg
+2026-05-14 13:50:26 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1300267/comments?sort=new_score&status=P
+2026-05-14 13:50:33 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:50:33 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1300267/ | 短评数：15
+2026-05-14 13:50:33 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：飞屋环游记 冲天救兵_港_    天外奇迹_台_.jpg
+2026-05-14 13:50:40 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/2129039/comments?sort=new_score&status=P
+2026-05-14 13:50:45 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:50:46 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/2129039/ | 短评数：15
+2026-05-14 13:50:46 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：让子弹飞 让子弹飞一会儿    火烧云.jpg
+2026-05-14 13:50:51 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3742360/comments?sort=new_score&status=P
+2026-05-14 13:50:57 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:50:58 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3742360/ | 短评数：15
+2026-05-14 13:50:58 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：哈尔的移动城堡 哈尔移动城堡_港_    霍尔的移动城堡_台.jpg
+2026-05-14 13:51:03 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1308807/comments?sort=new_score&status=P
+2026-05-14 13:51:09 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:51:09 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1308807/ | 短评数：15
+2026-05-14 13:51:09 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：十二怒汉 12怒汉    十二怒汉.jpg
+2026-05-14 13:51:16 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1293182/comments?sort=new_score&status=P
+2026-05-14 13:51:21 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:51:21 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1293182/ | 短评数：15
+2026-05-14 13:51:21 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：海蒂和爷爷 飘零燕_港_    海蒂.jpg
+2026-05-14 13:51:27 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25958717/comments?sort=new_score&status=P
+2026-05-14 13:51:33 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:51:33 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25958717/ | 短评数：15
+2026-05-14 13:51:33 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：素媛 许愿    希望：为爱重生_台_.jpg
+2026-05-14 13:51:40 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/21937452/comments?sort=new_score&status=P
+2026-05-14 13:51:46 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:51:47 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/21937452/ | 短评数：15
+2026-05-14 13:51:47 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：猫鼠游戏 逍遥法外    捉智双雄_港_.jpg
+2026-05-14 13:51:52 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1305487/comments?sort=new_score&status=P
+2026-05-14 13:51:57 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:51:58 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1305487/ | 短评数：15
+2026-05-14 13:51:58 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：天空之城 天空之城拉普他    空中城堡拉普他.jpg
+2026-05-14 13:52:03 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291583/comments?sort=new_score&status=P
+2026-05-14 13:52:08 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:52:09 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291583/ | 短评数：15
+2026-05-14 13:52:09 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：鬼子来了 Devils on the Doorstep.jpg
+2026-05-14 13:52:15 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291858/comments?sort=new_score&status=P
+2026-05-14 13:52:21 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:52:22 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291858/ | 短评数：15
+2026-05-14 13:52:22 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：摔跤吧！爸爸 我和我的冠军女儿_台_    打死不离3父女_.jpg
+2026-05-14 13:52:30 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/26387939/comments?sort=new_score&status=P
+2026-05-14 13:52:35 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:52:35 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/26387939/ | 短评数：15
+2026-05-14 13:52:35 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：少年派的奇幻漂流 少年Pi的奇幻漂流    漂流少年Pi.jpg
+2026-05-14 13:52:43 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1929463/comments?sort=new_score&status=P
+2026-05-14 13:52:49 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:52:50 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1929463/ | 短评数：15
+2026-05-14 13:52:50 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：钢琴家 钢琴战曲_港_    战地琴人_台_.jpg | 大小：10.9KB
+2026-05-14 13:52:55 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1296736/comments?sort=new_score&status=P
+2026-05-14 13:53:01 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:53:02 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1296736/ | 短评数：15
+2026-05-14 13:53:02 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：指环王2：双塔奇兵 魔戒二部曲：双城奇谋    指环王II：.jpg
+2026-05-14 13:53:08 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291572/comments?sort=new_score&status=P
+2026-05-14 13:53:13 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:53:14 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291572/ | 短评数：15
+2026-05-14 13:53:14 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：死亡诗社 暴雨骄阳_港_    春风化雨_台_.jpg
+2026-05-14 13:53:19 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291548/comments?sort=new_score&status=P
+2026-05-14 13:53:23 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:53:24 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291548/ | 短评数：15
+2026-05-14 13:53:24 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：大话西游之月光宝盒 西游记101回月光宝盒    齐天大圣东.jpg | 大小：17.5KB
+2026-05-14 13:53:31 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1299398/comments?sort=new_score&status=P
+2026-05-14 13:53:36 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:53:37 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1299398/ | 短评数：15
+2026-05-14 13:53:37 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：绿皮书 绿簿旅友_港_    幸福绿皮书_台_.jpg
+2026-05-14 13:53:43 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/27060077/comments?sort=new_score&status=P
+2026-05-14 13:53:49 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:53:50 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/27060077/ | 短评数：15
+2026-05-14 13:53:50 - douban_crawler - requests_crawler.py:105 - INFO - 成功爬取：https://movie.douban.com/top250?start=25&filter= | 总数：25 | 成功解析：25
+2026-05-14 13:53:50 - douban_crawler - base_crawler.py:19 - INFO - 休眠 3.47 秒
+2026-05-14 13:53:53 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：何以为家 迦百农    星仔打官司_港_.jpg
+2026-05-14 13:53:59 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/30170448/comments?sort=new_score&status=P
+2026-05-14 13:54:05 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:54:06 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/30170448/ | 短评数：15
+2026-05-14 13:54:06 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：闻香识女人 女人香    女人的芳香.jpg | 大小：19.5KB
+2026-05-14 13:54:11 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1298624/comments?sort=new_score&status=P
+2026-05-14 13:54:17 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:54:17 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1298624/ | 短评数：15
+2026-05-14 13:54:18 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：大闹天宫 大闹天宫 上下集    The Monkey Ki.jpg | 大小：11.4KB
+2026-05-14 13:54:24 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1418019/comments?sort=new_score&status=P
+2026-05-14 13:54:29 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:54:30 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1418019/ | 短评数：15
+2026-05-14 13:54:30 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：黑客帝国 22世纪杀人网络_港_    廿二世纪杀人网络_港.jpg | 大小：19.5KB
+2026-05-14 13:54:36 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291843/comments?sort=new_score&status=P
+2026-05-14 13:54:42 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:54:43 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291843/ | 短评数：15
+2026-05-14 13:54:43 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：指环王1：护戒使者 指环王1：魔戒再现    指环王I：护戒.jpg | 大小：23.4KB
+2026-05-14 13:54:50 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291571/comments?sort=new_score&status=P
+2026-05-14 13:54:55 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:54:56 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291571/ | 短评数：15
+2026-05-14 13:54:56 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：罗马假日 金枝玉叶_港_    罗马假期_台_.jpg | 大小：18.8KB
+2026-05-14 13:55:02 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1293839/comments?sort=new_score&status=P
+2026-05-14 13:55:07 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:55:08 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1293839/ | 短评数：15
+2026-05-14 13:55:08 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：教父2 教父续集_港_    教父II.jpg | 大小：16.9KB
+2026-05-14 13:55:15 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1299131/comments?sort=new_score&status=P
+2026-05-14 13:55:21 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:55:21 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1299131/ | 短评数：15
+2026-05-14 13:55:21 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：狮子王 狮子王3D.jpg | 大小：17.4KB
+2026-05-14 13:55:27 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1301753/comments?sort=new_score&status=P
+2026-05-14 13:55:32 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:55:33 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1301753/ | 短评数：15
+2026-05-14 13:55:33 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：天堂电影院 星光伴我心_港_    新天堂乐园_台_.jpg | 大小：19.9KB
+2026-05-14 13:55:39 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291828/comments?sort=new_score&status=P
+2026-05-14 13:55:44 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:55:44 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291828/ | 短评数：15
+2026-05-14 13:55:45 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：饮食男女 Eat Drink Man Woman.jpg | 大小：25.2KB
+2026-05-14 13:55:52 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291818/comments?sort=new_score&status=P
+2026-05-14 13:55:57 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:55:58 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291818/ | 短评数：15
+2026-05-14 13:55:58 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：辩护人 逆权大状_港_    正义辩护人_台_.jpg
+2026-05-14 13:56:03 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/21937445/comments?sort=new_score&status=P
+2026-05-14 13:56:08 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:56:09 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/21937445/ | 短评数：15
+2026-05-14 13:56:09 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：本杰明·巴顿奇事 奇幻逆缘_港_    班杰明的奇幻旅程_台.jpg
+2026-05-14 13:56:15 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1485260/comments?sort=new_score&status=P
+2026-05-14 13:56:20 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:56:20 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1485260/ | 短评数：15
+2026-05-14 13:56:21 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：搏击俱乐部 搏击会_港_    斗阵俱乐部_台_.jpg | 大小：21.5KB
+2026-05-14 13:56:27 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292000/comments?sort=new_score&status=P
+2026-05-14 13:56:32 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:56:32 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292000/ | 短评数：15
+2026-05-14 13:56:32 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：美丽心灵 有你终生美丽_港_    美丽境界_台_.jpg | 大小：17.7KB
+2026-05-14 13:56:37 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1306029/comments?sort=new_score&status=P
+2026-05-14 13:56:42 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:56:43 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1306029/ | 短评数：15
+2026-05-14 13:56:43 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：穿条纹睡衣的男孩 穿条纹衣服的男孩    穿条纹衣的男孩.jpg
+2026-05-14 13:56:49 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3008247/comments?sort=new_score&status=P
+2026-05-14 13:56:54 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:56:55 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3008247/ | 短评数：15
+2026-05-14 13:56:55 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：哈利·波特与死亡圣器_下_ 哈利波特7：死神的圣物2_港.jpg
+2026-05-14 13:57:01 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3011235/comments?sort=new_score&status=P
+2026-05-14 13:57:05 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:57:05 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3011235/ | 短评数：15
+2026-05-14 13:57:05 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：情书 When I Close My Eyes    Let.jpg | 大小：8.6KB
+2026-05-14 13:57:11 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292220/comments?sort=new_score&status=P
+2026-05-14 13:57:16 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:57:17 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292220/ | 短评数：15
+2026-05-14 13:57:17 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：两杆大烟枪 够姜四小强_港_    两根枪管_台_.jpg | 大小：14.6KB
+2026-05-14 13:57:23 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1293350/comments?sort=new_score&status=P
+2026-05-14 13:57:27 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:57:28 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1293350/ | 短评数：15
+2026-05-14 13:57:28 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：窃听风暴 窃听者_港_    他人的生活.jpg
+2026-05-14 13:57:35 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1900841/comments?sort=new_score&status=P
+2026-05-14 13:57:40 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:57:40 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1900841/ | 短评数：15
+2026-05-14 13:57:40 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：功夫 功夫3D    Kung Fu Hustle.jpg
+2026-05-14 13:57:46 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291543/comments?sort=new_score&status=P
+2026-05-14 13:57:51 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:57:51 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291543/ | 短评数：15
+2026-05-14 13:57:51 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：音乐之声 仙乐飘飘处处闻_港_    真善美_台_.jpg | 大小：27.3KB
+2026-05-14 13:57:57 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1294408/comments?sort=new_score&status=P
+2026-05-14 13:58:02 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:58:02 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1294408/ | 短评数：15
+2026-05-14 13:58:02 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：哈利·波特与阿兹卡班的囚徒 哈利波特3：阿兹卡班的逃犯_港.jpg
+2026-05-14 13:58:08 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291544/comments?sort=new_score&status=P
+2026-05-14 13:58:14 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:58:14 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291544/ | 短评数：15
+2026-05-14 13:58:14 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：阿凡达.jpg
+2026-05-14 13:58:20 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1652587/comments?sort=new_score&status=P
+2026-05-14 13:58:25 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:58:26 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1652587/ | 短评数：15
+2026-05-14 13:58:26 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：西西里的美丽传说 真爱伴我行_台_    玛莲娜.jpg | 大小：21.3KB
+2026-05-14 13:58:33 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292402/comments?sort=new_score&status=P
+2026-05-14 13:58:38 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:58:38 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292402/ | 短评数：15
+2026-05-14 13:58:38 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：看不见的客人 死无对证_港_    布局_台_.jpg
+2026-05-14 13:58:44 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/26580232/comments?sort=new_score&status=P
+2026-05-14 13:58:49 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:58:50 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/26580232/ | 短评数：15
+2026-05-14 13:58:50 - douban_crawler - requests_crawler.py:105 - INFO - 成功爬取：https://movie.douban.com/top250?start=50&filter= | 总数：25 | 成功解析：25
+2026-05-14 13:58:50 - douban_crawler - base_crawler.py:19 - INFO - 休眠 5.03 秒
+2026-05-14 13:58:55 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：拯救大兵瑞恩 雷霆救兵_港_    抢救雷恩大兵_台_.jpg | 大小：13.4KB
+2026-05-14 13:59:01 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292849/comments?sort=new_score&status=P
+2026-05-14 13:59:05 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:59:06 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292849/ | 短评数：15
+2026-05-14 13:59:06 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：沉默的羔羊 沉默的羔羊.jpg | 大小：14.4KB
+2026-05-14 13:59:13 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1293544/comments?sort=new_score&status=P
+2026-05-14 13:59:17 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:59:18 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1293544/ | 短评数：15
+2026-05-14 13:59:18 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：小鞋子 天堂的孩子    小童鞋.jpg | 大小：16.6KB
+2026-05-14 13:59:25 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1303021/comments?sort=new_score&status=P
+2026-05-14 13:59:30 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:59:30 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1303021/ | 短评数：15
+2026-05-14 13:59:30 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：布达佩斯大饭店 布达佩斯大酒店_港_    欢迎来到布达佩斯.jpg
+2026-05-14 13:59:36 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/11525673/comments?sort=new_score&status=P
+2026-05-14 13:59:42 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:59:42 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/11525673/ | 短评数：15
+2026-05-14 13:59:42 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：蝴蝶效应 蝴蝶效应.jpg
+2026-05-14 13:59:48 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292343/comments?sort=new_score&status=P
+2026-05-14 13:59:53 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 13:59:54 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292343/ | 短评数：15
+2026-05-14 13:59:54 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：飞越疯人院 飞越杜鹃窝_台_    飞越喜鹊巢.jpg | 大小：20.9KB
+2026-05-14 14:00:00 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292224/comments?sort=new_score&status=P
+2026-05-14 14:00:06 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:00:06 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292224/ | 短评数：15
+2026-05-14 14:00:06 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：还有明天 明天还有梦_港_    我们还有明天_台_.jpg | 大小：13.0KB
+2026-05-14 14:00:12 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/36445098/comments?sort=new_score&status=P
+2026-05-14 14:00:17 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:00:18 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/36445098/ | 短评数：15
+2026-05-14 14:00:18 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：禁闭岛 不赦岛_港_    隔离岛_台_.jpg
+2026-05-14 14:00:25 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/2334904/comments?sort=new_score&status=P
+2026-05-14 14:00:30 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:00:31 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/2334904/ | 短评数：15
+2026-05-14 14:00:31 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：心灵捕手 骄阳似我_港_    心灵捕手.jpg | 大小：24.8KB
+2026-05-14 14:00:37 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292656/comments?sort=new_score&status=P
+2026-05-14 14:00:42 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:00:43 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292656/ | 短评数：15
+2026-05-14 14:00:43 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：致命魔术 死亡魔法_港_    顶尖对决_台_.jpg
+2026-05-14 14:00:49 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1780330/comments?sort=new_score&status=P
+2026-05-14 14:00:54 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:00:55 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1780330/ | 短评数：15
+2026-05-14 14:00:55 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：低俗小说 危险人物_港_    黑色追缉令_台_.jpg | 大小：28.1KB
+2026-05-14 14:01:02 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291832/comments?sort=new_score&status=P
+2026-05-14 14:01:07 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:01:08 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291832/ | 短评数：15
+2026-05-14 14:01:08 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：哈利·波特与密室 哈利波特2：消失的密室_港  台_.jpg | 大小：23.7KB
+2026-05-14 14:01:14 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1296996/comments?sort=new_score&status=P
+2026-05-14 14:01:19 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:01:20 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1296996/ | 短评数：15
+2026-05-14 14:01:20 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：超脱 人间师格_台_.jpg
+2026-05-14 14:01:26 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/5322596/comments?sort=new_score&status=P
+2026-05-14 14:01:32 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:01:33 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/5322596/ | 短评数：15
+2026-05-14 14:01:33 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：一一 Yi yi    Yi yi_ A One and a.jpg | 大小：7.4KB
+2026-05-14 14:01:38 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292434/comments?sort=new_score&status=P
+2026-05-14 14:01:43 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:01:44 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292434/ | 短评数：15
+2026-05-14 14:01:44 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：喜剧之王 King of Comedy.jpg | 大小：16.3KB
+2026-05-14 14:01:51 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1302425/comments?sort=new_score&status=P
+2026-05-14 14:01:56 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:01:57 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1302425/ | 短评数：15
+2026-05-14 14:01:57 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：杀人回忆 谋杀回忆    杀手回忆录.jpg | 大小：16.8KB
+2026-05-14 14:02:02 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1300299/comments?sort=new_score&status=P
+2026-05-14 14:02:08 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:02:08 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1300299/ | 短评数：15
+2026-05-14 14:02:08 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：致命ID 杀人游戏    致命身份.jpg | 大小：12.2KB
+2026-05-14 14:02:13 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1297192/comments?sort=new_score&status=P
+2026-05-14 14:02:19 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:02:20 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1297192/ | 短评数：15
+2026-05-14 14:02:20 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：摩登时代 The Masses    Les Temps m.jpg | 大小：24.9KB
+2026-05-14 14:02:27 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1294371/comments?sort=new_score&status=P
+2026-05-14 14:02:32 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:02:33 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1294371/ | 短评数：15
+2026-05-14 14:02:33 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：春光乍泄 一起快乐    Happy Together.jpg | 大小：18.8KB
+2026-05-14 14:02:39 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292679/comments?sort=new_score&status=P
+2026-05-14 14:02:45 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:02:45 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292679/ | 短评数：15
+2026-05-14 14:02:46 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：加勒比海盗 加勒比海盗1：黑珍珠号的诅咒    神鬼奇航：鬼.jpg | 大小：25.9KB
+2026-05-14 14:02:51 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1298070/comments?sort=new_score&status=P
+2026-05-14 14:02:57 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:02:57 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1298070/ | 短评数：15
+2026-05-14 14:02:57 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：海豚湾 血色海湾_台_    海湾.jpg
+2026-05-14 14:03:02 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3442220/comments?sort=new_score&status=P
+2026-05-14 14:03:07 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:03:08 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3442220/ | 短评数：15
+2026-05-14 14:03:08 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：美国往事 四海兄弟_台_    义薄云天_港_.jpg | 大小：19.0KB
+2026-05-14 14:03:15 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292262/comments?sort=new_score&status=P
+2026-05-14 14:03:20 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:03:21 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292262/ | 短评数：15
+2026-05-14 14:03:21 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：红辣椒 盗梦侦探_港  台_.jpg
+2026-05-14 14:03:28 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1865703/comments?sort=new_score&status=P
+2026-05-14 14:03:32 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:03:33 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1865703/ | 短评数：15
+2026-05-14 14:03:33 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：七宗罪 火线追缉令_台_    7宗罪.jpg | 大小：27.1KB
+2026-05-14 14:03:40 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292223/comments?sort=new_score&status=P
+2026-05-14 14:03:45 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:03:46 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292223/ | 短评数：15
+2026-05-14 14:03:46 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：唐伯虎点秋香 Flirting Scholar.jpg | 大小：28.2KB
+2026-05-14 14:03:53 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1306249/comments?sort=new_score&status=P
+2026-05-14 14:03:58 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:03:59 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1306249/ | 短评数：15
+2026-05-14 14:03:59 - douban_crawler - requests_crawler.py:105 - INFO - 成功爬取：https://movie.douban.com/top250?start=75&filter= | 总数：25 | 成功解析：25
+2026-05-14 14:03:59 - douban_crawler - base_crawler.py:19 - INFO - 休眠 3.88 秒
+2026-05-14 14:04:03 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：狩猎 诬网_港_    谎言的烙印_台_.jpg
+2026-05-14 14:04:09 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/6985810/comments?sort=new_score&status=P
+2026-05-14 14:04:15 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:04:15 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/6985810/ | 短评数：15
+2026-05-14 14:04:15 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：幽灵公主 魔法公主    幽灵少女.jpg | 大小：22.4KB
+2026-05-14 14:04:22 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1297359/comments?sort=new_score&status=P
+2026-05-14 14:04:27 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:04:28 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1297359/ | 短评数：15
+2026-05-14 14:04:28 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：甜蜜蜜 Comrades_ Almost a Love St.jpg | 大小：23.2KB
+2026-05-14 14:04:32 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1305164/comments?sort=new_score&status=P
+2026-05-14 14:04:38 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:04:38 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1305164/ | 短评数：15
+2026-05-14 14:04:39 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：寄生虫 寄生上流_台_    上流寄生族_港_.jpg | 大小：18.9KB
+2026-05-14 14:04:45 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/27010768/comments?sort=new_score&status=P
+2026-05-14 14:04:51 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:04:52 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/27010768/ | 短评数：15
+2026-05-14 14:04:52 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：天书奇谭 天书奇谭4K纪念版    The Legend o.jpg | 大小：18.8KB
+2026-05-14 14:04:58 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1428581/comments?sort=new_score&status=P
+2026-05-14 14:05:03 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:05:04 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1428581/ | 短评数：15
+2026-05-14 14:05:04 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：蝙蝠侠：黑暗骑士崛起 蝙蝠侠前传3：黑暗骑士崛起    黑暗.jpg
+2026-05-14 14:05:10 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3395373/comments?sort=new_score&status=P
+2026-05-14 14:05:14 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:05:15 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3395373/ | 短评数：15
+2026-05-14 14:05:15 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：超能陆战队 大英雄联盟_港_    大英雄天团_台_.jpg
+2026-05-14 14:05:22 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/11026735/comments?sort=new_score&status=P
+2026-05-14 14:05:27 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:05:28 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/11026735/ | 短评数：15
+2026-05-14 14:05:28 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：7号房的礼物 戆爸的礼物_港_    7号囚房的礼物.jpg
+2026-05-14 14:05:33 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/10777687/comments?sort=new_score&status=P
+2026-05-14 14:05:39 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:05:39 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/10777687/ | 短评数：15
+2026-05-14 14:05:40 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：茶馆 The Teahouse.jpg | 大小：20.2KB
+2026-05-14 14:05:46 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1461403/comments?sort=new_score&status=P
+2026-05-14 14:05:51 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:05:52 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1461403/ | 短评数：15
+2026-05-14 14:05:52 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：第六感 鬼眼_港_    灵异第六感_台_.jpg | 大小：4.3KB
+2026-05-14 14:05:57 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1297630/comments?sort=new_score&status=P
+2026-05-14 14:06:03 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:06:03 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1297630/ | 短评数：15
+2026-05-14 14:06:04 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：爱在黎明破晓前 情留半天_港_    爱在黎明破晓时_台_.jpg | 大小：16.0KB
+2026-05-14 14:06:10 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1296339/comments?sort=new_score&status=P
+2026-05-14 14:06:18 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:06:18 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1296339/ | 短评数：15
+2026-05-14 14:06:18 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：爱在日落黄昏时 日落巴黎_港_    爱在日落巴黎时_台_.jpg
+2026-05-14 14:06:25 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291990/comments?sort=new_score&status=P
+2026-05-14 14:06:32 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:06:32 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291990/ | 短评数：15
+2026-05-14 14:06:32 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：被嫌弃的松子的一生 花样奇缘_港_    令人讨厌的松子的一.jpg
+2026-05-14 14:06:38 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1787291/comments?sort=new_score&status=P
+2026-05-14 14:06:43 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:06:44 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1787291/ | 短评数：15
+2026-05-14 14:06:44 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：头脑特工队 玩转脑朋友_港_    脑筋急转弯_台_.jpg
+2026-05-14 14:06:50 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/10533913/comments?sort=new_score&status=P
+2026-05-14 14:06:56 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:06:57 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/10533913/ | 短评数：15
+2026-05-14 14:06:57 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：哈利·波特与火焰杯 哈利波特4：火杯的考验_港  台_.jpg | 大小：21.6KB
+2026-05-14 14:07:04 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1309055/comments?sort=new_score&status=P
+2026-05-14 14:07:10 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:07:10 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1309055/ | 短评数：15
+2026-05-14 14:07:10 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：未麻的部屋 蓝色恐惧_港  台_.jpg | 大小：30.9KB
+2026-05-14 14:07:18 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1395091/comments?sort=new_score&status=P
+2026-05-14 14:07:24 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:07:25 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1395091/ | 短评数：15
+2026-05-14 14:07:25 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：重庆森林 Chungking Express.jpg | 大小：17.0KB
+2026-05-14 14:07:32 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291999/comments?sort=new_score&status=P
+2026-05-14 14:07:37 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:07:37 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291999/ | 短评数：15
+2026-05-14 14:07:37 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：借东西的小人阿莉埃蒂 借物少女艾莉缇_台_    借东西的小.jpg
+2026-05-14 14:07:42 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/4202302/comments?sort=new_score&status=P
+2026-05-14 14:07:48 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:07:49 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/4202302/ | 短评数：15
+2026-05-14 14:07:49 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：菊次郎的夏天 菊次郎之夏    Kikujirô no na.jpg | 大小：23.0KB
+2026-05-14 14:07:56 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1293359/comments?sort=new_score&status=P
+2026-05-14 14:08:02 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:08:02 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1293359/ | 短评数：15
+2026-05-14 14:08:02 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：入殓师 礼仪师之奏鸣曲_港_    礼仪师_台_.jpg
+2026-05-14 14:08:07 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/2149806/comments?sort=new_score&status=P
+2026-05-14 14:08:13 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:08:14 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/2149806/ | 短评数：15
+2026-05-14 14:08:14 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：断背山 断臂山    BBM.jpg
+2026-05-14 14:08:21 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1418834/comments?sort=new_score&status=P
+2026-05-14 14:08:27 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:08:28 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1418834/ | 短评数：15
+2026-05-14 14:08:28 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：剪刀手爱德华 幻海奇缘_港_    剪刀手爱德华.jpg | 大小：20.3KB
+2026-05-14 14:08:33 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292370/comments?sort=new_score&status=P
+2026-05-14 14:08:38 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:08:39 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292370/ | 短评数：15
+2026-05-14 14:08:39 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：勇敢的心 惊世未了缘_港_    梅尔吉勃逊之英雄本色_台_.jpg | 大小：19.2KB
+2026-05-14 14:08:45 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1294639/comments?sort=new_score&status=P
+2026-05-14 14:08:50 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:08:51 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1294639/ | 短评数：15
+2026-05-14 14:08:51 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：时空恋旅人 回到最爱的一天_港_    真爱每一天_台_.jpg
+2026-05-14 14:08:58 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/10577869/comments?sort=new_score&status=P
+2026-05-14 14:09:02 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:09:03 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/10577869/ | 短评数：15
+2026-05-14 14:09:03 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：驯龙高手 驯龙记_港_.jpg
+2026-05-14 14:09:11 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/2353023/comments?sort=new_score&status=P
+2026-05-14 14:09:15 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:09:15 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/2353023/ | 短评数：15
+2026-05-14 14:09:15 - douban_crawler - requests_crawler.py:105 - INFO - 成功爬取：https://movie.douban.com/top250?start=100&filter= | 总数：25 | 成功解析：25
+2026-05-14 14:09:15 - douban_crawler - base_crawler.py:19 - INFO - 休眠 5.45 秒
+2026-05-14 14:09:21 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：傲慢与偏见 傲慢与偏见2005    Pride And P.jpg
+2026-05-14 14:09:26 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1418200/comments?sort=new_score&status=P
+2026-05-14 14:09:31 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:09:32 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1418200/ | 短评数：15
+2026-05-14 14:09:32 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：消失的爱人 失踪的女孩    失踪女孩.jpg
+2026-05-14 14:09:37 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/21318488/comments?sort=new_score&status=P
+2026-05-14 14:09:43 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:09:44 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/21318488/ | 短评数：15
+2026-05-14 14:09:44 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：无人知晓 谁知赤子心_港_    无人知晓的夏日清晨_台_.jpg
+2026-05-14 14:09:50 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292337/comments?sort=new_score&status=P
+2026-05-14 14:09:55 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:09:56 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292337/ | 短评数：15
+2026-05-14 14:09:56 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：倩女幽魂 倩女幽魂_87版_    倩女幽魂：妖魔道.jpg | 大小：19.0KB
+2026-05-14 14:10:02 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1297447/comments?sort=new_score&status=P
+2026-05-14 14:10:08 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:10:08 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1297447/ | 短评数：15
+2026-05-14 14:10:08 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：新世界 暗黑新世界_台_    New World.jpg
+2026-05-14 14:10:14 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/10437779/comments?sort=new_score&status=P
+2026-05-14 14:10:20 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:10:20 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/10437779/ | 短评数：15
+2026-05-14 14:10:21 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：花样年华 花样年华导演特别版    花样年华4K修复版.jpg | 大小：24.4KB
+2026-05-14 14:10:27 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291557/comments?sort=new_score&status=P
+2026-05-14 14:10:32 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:10:33 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291557/ | 短评数：15
+2026-05-14 14:10:33 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：玩具总动员3 反斗奇兵3_港_    玩具的故事3.jpg
+2026-05-14 14:10:40 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1858711/comments?sort=new_score&status=P
+2026-05-14 14:10:45 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:10:46 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1858711/ | 短评数：15
+2026-05-14 14:10:46 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：一个叫欧维的男人决定去死 明天别再来敲门_台_    想死冇.jpg
+2026-05-14 14:10:51 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/26628357/comments?sort=new_score&status=P
+2026-05-14 14:10:56 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:10:56 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/26628357/ | 短评数：15
+2026-05-14 14:10:56 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：色，戒 色_戒    色·戒.jpg
+2026-05-14 14:11:02 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1828115/comments?sort=new_score&status=P
+2026-05-14 14:11:07 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:11:08 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1828115/ | 短评数：15
+2026-05-14 14:11:08 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：完美的世界 强盗保镳.jpg | 大小：22.8KB
+2026-05-14 14:11:14 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1300992/comments?sort=new_score&status=P
+2026-05-14 14:11:19 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:11:20 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1300992/ | 短评数：15
+2026-05-14 14:11:20 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：怪兽电力公司 怪兽公司_港_    怪物公司.jpg | 大小：16.6KB
+2026-05-14 14:11:27 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291579/comments?sort=new_score&status=P
+2026-05-14 14:11:32 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:11:33 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291579/ | 短评数：15
+2026-05-14 14:11:33 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：阳光灿烂的日子 In the Heat of the Sun.jpg | 大小：18.1KB
+2026-05-14 14:11:39 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291875/comments?sort=new_score&status=P
+2026-05-14 14:11:44 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:11:45 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291875/ | 短评数：15
+2026-05-14 14:11:45 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：教父3 教父第三集    教父 III.jpg | 大小：14.3KB
+2026-05-14 14:11:50 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1294240/comments?sort=new_score&status=P
+2026-05-14 14:11:55 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:11:56 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1294240/ | 短评数：15
+2026-05-14 14:11:56 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：小森林 夏秋篇 小森食光  夏秋篇_台_.jpg
+2026-05-14 14:12:03 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25814705/comments?sort=new_score&status=P
+2026-05-14 14:12:08 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:12:08 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25814705/ | 短评数：15
+2026-05-14 14:12:08 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：天使爱美丽 艾蜜莉的异想世界_台_    天使艾米莉.jpg | 大小：13.6KB
+2026-05-14 14:12:15 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292215/comments?sort=new_score&status=P
+2026-05-14 14:12:20 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:12:21 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292215/ | 短评数：15
+2026-05-14 14:12:21 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：侧耳倾听 心之谷_台_    梦幻街少女_港_.jpg | 大小：17.1KB
+2026-05-14 14:12:26 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1297052/comments?sort=new_score&status=P
+2026-05-14 14:12:32 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:12:32 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1297052/ | 短评数：15
+2026-05-14 14:12:32 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：哪吒闹海 Prince Nezha_s Triumph Ag.jpg | 大小：25.6KB
+2026-05-14 14:12:39 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1307315/comments?sort=new_score&status=P
+2026-05-14 14:12:43 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:12:44 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1307315/ | 短评数：15
+2026-05-14 14:12:44 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：九品芝麻官 九品芝麻官之白面包青天    Hail the.jpg | 大小：24.1KB
+2026-05-14 14:12:50 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1297518/comments?sort=new_score&status=P
+2026-05-14 14:12:56 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:12:56 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1297518/ | 短评数：15
+2026-05-14 14:12:56 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：被解救的姜戈 被解放的姜戈    决杀令_台_.jpg
+2026-05-14 14:13:03 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/6307447/comments?sort=new_score&status=P
+2026-05-14 14:13:07 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:13:08 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/6307447/ | 短评数：15
+2026-05-14 14:13:08 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：请以你的名字呼唤我 以你的名字呼唤我_港  台_.jpg
+2026-05-14 14:13:14 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/26799731/comments?sort=new_score&status=P
+2026-05-14 14:13:20 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:13:21 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/26799731/ | 短评数：15
+2026-05-14 14:13:21 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：幸福终点站 机场客运站_港_    航站情缘_台_.jpg
+2026-05-14 14:13:26 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292274/comments?sort=new_score&status=P
+2026-05-14 14:13:31 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:13:32 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292274/ | 短评数：15
+2026-05-14 14:13:32 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：釜山行 尸杀列车_港_    尸速列车_台_.jpg
+2026-05-14 14:13:39 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25986180/comments?sort=new_score&status=P
+2026-05-14 14:13:44 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:13:45 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25986180/ | 短评数：15
+2026-05-14 14:13:45 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：神偷奶爸 卑鄙的我    坏蛋奖门人_港_.jpg
+2026-05-14 14:13:51 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3287562/comments?sort=new_score&status=P
+2026-05-14 14:13:57 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:13:57 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3287562/ | 短评数：15
+2026-05-14 14:13:57 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：小森林 冬春篇 小森食光  冬春篇_台_.jpg
+2026-05-14 14:14:03 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25814707/comments?sort=new_score&status=P
+2026-05-14 14:14:08 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:14:09 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25814707/ | 短评数：15
+2026-05-14 14:14:09 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：喜宴 The Wedding Banquet.jpg | 大小：18.3KB
+2026-05-14 14:14:15 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1303037/comments?sort=new_score&status=P
+2026-05-14 14:14:20 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:14:21 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1303037/ | 短评数：15
+2026-05-14 14:14:21 - douban_crawler - requests_crawler.py:105 - INFO - 成功爬取：https://movie.douban.com/top250?start=125&filter= | 总数：25 | 成功解析：25
+2026-05-14 14:14:21 - douban_crawler - base_crawler.py:19 - INFO - 休眠 3.99 秒
+2026-05-14 14:14:25 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：萤火之森 萤火之社    Hotarubi no mori.jpg
+2026-05-14 14:14:31 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/5989818/comments?sort=new_score&status=P
+2026-05-14 14:14:36 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:14:37 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/5989818/ | 短评数：15
+2026-05-14 14:14:37 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：告白 自白    母亲.jpg
+2026-05-14 14:14:43 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/4268598/comments?sort=new_score&status=P
+2026-05-14 14:14:48 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:14:49 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/4268598/ | 短评数：15
+2026-05-14 14:14:49 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：七武士 七侠四义_港_    七剑客_港_.jpg | 大小：28.2KB
+2026-05-14 14:14:54 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1295399/comments?sort=new_score&status=P
+2026-05-14 14:14:59 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:15:00 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1295399/ | 短评数：15
+2026-05-14 14:15:00 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：玛丽和麦克斯 玛丽和马克思    巧克力情缘_台_.jpg
+2026-05-14 14:15:06 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3072124/comments?sort=new_score&status=P
+2026-05-14 14:15:12 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:15:12 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3072124/ | 短评数：15
+2026-05-14 14:15:12 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：头号玩家 玩家一号    挑战者1号_港_.jpg
+2026-05-14 14:15:17 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/4920389/comments?sort=new_score&status=P
+2026-05-14 14:15:24 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:15:24 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/4920389/ | 短评数：15
+2026-05-14 14:15:24 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：模仿游戏 解码游戏_港_    模拟游戏.jpg
+2026-05-14 14:15:31 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/10463953/comments?sort=new_score&status=P
+2026-05-14 14:15:36 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:15:37 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/10463953/ | 短评数：15
+2026-05-14 14:15:37 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：惊魂记 精神病患者    触目惊心_港_.jpg | 大小：19.4KB
+2026-05-14 14:15:42 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1293181/comments?sort=new_score&status=P
+2026-05-14 14:15:48 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:15:49 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1293181/ | 短评数：15
+2026-05-14 14:15:49 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：机器人之梦 再见机器人_台_    汪汪梦里人_港_.jpg | 大小：17.1KB
+2026-05-14 14:15:55 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/35426925/comments?sort=new_score&status=P
+2026-05-14 14:16:01 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:16:01 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/35426925/ | 短评数：15
+2026-05-14 14:16:02 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：大鱼 大鱼奇缘_港_    大智若鱼_台_.jpg | 大小：23.8KB
+2026-05-14 14:16:07 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291545/comments?sort=new_score&status=P
+2026-05-14 14:16:13 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:16:14 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291545/ | 短评数：15
+2026-05-14 14:16:14 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：心灵奇旅 灵魂奇遇记_港_    灵魂急转弯_台_.jpg | 大小：10.8KB
+2026-05-14 14:16:20 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/24733428/comments?sort=new_score&status=P
+2026-05-14 14:16:25 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:16:26 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/24733428/ | 短评数：15
+2026-05-14 14:16:26 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：背靠背，脸对脸 背对背，脸对脸    Back to Bac.jpg | 大小：16.6KB
+2026-05-14 14:16:33 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1307856/comments?sort=new_score&status=P
+2026-05-14 14:16:38 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:16:38 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1307856/ | 短评数：15
+2026-05-14 14:16:38 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：血战钢锯岭 钢锯岭    钢铁英雄_台_.jpg
+2026-05-14 14:16:46 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/26325320/comments?sort=new_score&status=P
+2026-05-14 14:16:51 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:16:52 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/26325320/ | 短评数：15
+2026-05-14 14:16:52 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：射雕英雄传之东成西就 东成西就    大英雄 _日本_.jpg | 大小：26.9KB
+2026-05-14 14:16:58 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1316510/comments?sort=new_score&status=P
+2026-05-14 14:17:05 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:17:05 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1316510/ | 短评数：15
+2026-05-14 14:17:05 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：你的名字。 你的名字    君之名.jpg
+2026-05-14 14:17:12 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/26683290/comments?sort=new_score&status=P
+2026-05-14 14:17:17 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:17:18 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/26683290/ | 短评数：15
+2026-05-14 14:17:18 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：我是山姆 不一样的爸爸_港_    他不笨，他是我爸爸_台_.jpg | 大小：9.6KB
+2026-05-14 14:17:23 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1306861/comments?sort=new_score&status=P
+2026-05-14 14:17:28 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:17:29 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1306861/ | 短评数：15
+2026-05-14 14:17:29 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：阳光姐妹淘 阳光姊妹淘_港_    桑尼.jpg
+2026-05-14 14:17:36 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/4917726/comments?sort=new_score&status=P
+2026-05-14 14:17:42 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:17:42 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/4917726/ | 短评数：15
+2026-05-14 14:17:43 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：末路狂花 塞尔玛与路易丝.jpg | 大小：23.9KB
+2026-05-14 14:17:48 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291992/comments?sort=new_score&status=P
+2026-05-14 14:17:53 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:17:54 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291992/ | 短评数：15
+2026-05-14 14:17:54 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：恐怖直播 死亡“动”新闻_港_    恐怖攻击直播_台_.jpg
+2026-05-14 14:18:00 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/21360417/comments?sort=new_score&status=P
+2026-05-14 14:18:06 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:18:07 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/21360417/ | 短评数：15
+2026-05-14 14:18:07 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：黑客帝国3：矩阵革命 22世纪杀人网络3：惊变世纪_港_.jpg | 大小：15.0KB
+2026-05-14 14:18:13 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1302467/comments?sort=new_score&status=P
+2026-05-14 14:18:18 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:18:19 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1302467/ | 短评数：15
+2026-05-14 14:18:19 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：高山下的花环 卫国军魂_港_    Wreaths at t.jpg | 大小：17.1KB
+2026-05-14 14:18:26 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1422283/comments?sort=new_score&status=P
+2026-05-14 14:18:31 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:18:32 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1422283/ | 短评数：15
+2026-05-14 14:18:32 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：小丑 小丑起源电影：罗密欧    Romeo.jpg | 大小：16.6KB
+2026-05-14 14:18:38 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/27119724/comments?sort=new_score&status=P
+2026-05-14 14:18:44 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:18:44 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/27119724/ | 短评数：15
+2026-05-14 14:18:44 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：谍影重重3 叛谍追击3：最后通牒_港_    神鬼认证：最后.jpg
+2026-05-14 14:18:51 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1578507/comments?sort=new_score&status=P
+2026-05-14 14:18:56 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:18:56 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1578507/ | 短评数：15
+2026-05-14 14:18:56 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：三块广告牌 广告牌杀人事件_港_    意外_台_.jpg
+2026-05-14 14:19:03 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/26611804/comments?sort=new_score&status=P
+2026-05-14 14:19:10 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:19:10 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/26611804/ | 短评数：15
+2026-05-14 14:19:10 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：电锯惊魂 恐惧斗室_港_    夺魂锯_台_.jpg
+2026-05-14 14:19:17 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1417598/comments?sort=new_score&status=P
+2026-05-14 14:19:22 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:19:23 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1417598/ | 短评数：15
+2026-05-14 14:19:23 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：无间道2 无间道前传    Infernal Affairs.jpg | 大小：16.5KB
+2026-05-14 14:19:28 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1307106/comments?sort=new_score&status=P
+2026-05-14 14:19:34 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:19:35 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1307106/ | 短评数：15
+2026-05-14 14:19:35 - douban_crawler - requests_crawler.py:105 - INFO - 成功爬取：https://movie.douban.com/top250?start=150&filter= | 总数：25 | 成功解析：25
+2026-05-14 14:19:35 - douban_crawler - base_crawler.py:19 - INFO - 休眠 4.50 秒
+2026-05-14 14:19:40 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：达拉斯买家俱乐部 续命枭雄_港_    药命俱乐部_台_.jpg
+2026-05-14 14:19:47 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1793929/comments?sort=new_score&status=P
+2026-05-14 14:19:52 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:19:53 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1793929/ | 短评数：15
+2026-05-14 14:19:53 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：疯狂原始人 古鲁家族_港  台_.jpg
+2026-05-14 14:19:59 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1907966/comments?sort=new_score&status=P
+2026-05-14 14:20:04 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:20:05 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1907966/ | 短评数：15
+2026-05-14 14:20:05 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：绿里奇迹 绿色奇迹_台_    绿色英里.jpg | 大小：13.1KB
+2026-05-14 14:20:11 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1300374/comments?sort=new_score&status=P
+2026-05-14 14:20:16 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:20:17 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1300374/ | 短评数：15
+2026-05-14 14:20:17 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：爱在午夜降临前 情约半生_港_    爱在午夜希腊时_台_.jpg
+2026-05-14 14:20:23 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/10808442/comments?sort=new_score&status=P
+2026-05-14 14:20:28 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:20:29 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/10808442/ | 短评数：15
+2026-05-14 14:20:29 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：疯狂的石头 Crazy Stone.jpg
+2026-05-14 14:20:34 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1862151/comments?sort=new_score&status=P
+2026-05-14 14:20:39 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:20:39 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1862151/ | 短评数：15
+2026-05-14 14:20:40 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：雨中曲 万花嬉春_港  台_.jpg | 大小：29.9KB
+2026-05-14 14:20:46 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1293460/comments?sort=new_score&status=P
+2026-05-14 14:20:51 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:20:52 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1293460/ | 短评数：15
+2026-05-14 14:20:52 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：2001太空漫游 2001：星际漫游    2001：太空奥.jpg | 大小：24.0KB
+2026-05-14 14:20:57 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292226/comments?sort=new_score&status=P
+2026-05-14 14:21:02 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:21:03 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292226/ | 短评数：15
+2026-05-14 14:21:03 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：海街日记 海街女孩日记_港_    Kamakura Dia.jpg
+2026-05-14 14:21:09 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25895901/comments?sort=new_score&status=P
+2026-05-14 14:21:14 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:21:14 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25895901/ | 短评数：15
+2026-05-14 14:21:14 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：风之谷 风谷少女    Kaze no tani no Na.jpg | 大小：17.5KB
+2026-05-14 14:21:21 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291585/comments?sort=new_score&status=P
+2026-05-14 14:21:26 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:21:27 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291585/ | 短评数：15
+2026-05-14 14:21:27 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：上帝之城 无主之城_港_    无法无天_台_.jpg | 大小：20.5KB
+2026-05-14 14:21:33 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292208/comments?sort=new_score&status=P
+2026-05-14 14:21:38 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:21:39 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292208/ | 短评数：15
+2026-05-14 14:21:39 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：心迷宫 殡棺    The Coffin in the Mo.jpg
+2026-05-14 14:21:45 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25917973/comments?sort=new_score&status=P
+2026-05-14 14:21:50 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:21:50 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25917973/ | 短评数：15
+2026-05-14 14:21:51 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：英雄本色 A Better Tomorrow    Gang.jpg | 大小：22.8KB
+2026-05-14 14:21:57 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1297574/comments?sort=new_score&status=P
+2026-05-14 14:22:02 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:22:03 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1297574/ | 短评数：15
+2026-05-14 14:22:03 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：记忆碎片 凶心人_港_    记忆拼图_台_.jpg | 大小：20.0KB
+2026-05-14 14:22:08 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1304447/comments?sort=new_score&status=P
+2026-05-14 14:22:13 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:22:13 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1304447/ | 短评数：15
+2026-05-14 14:22:13 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：纵横四海 Once a Thief.jpg | 大小：21.8KB
+2026-05-14 14:22:19 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1295409/comments?sort=new_score&status=P
+2026-05-14 14:22:24 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:22:25 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1295409/ | 短评数：15
+2026-05-14 14:22:25 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：无敌破坏王 破坏王拉尔夫    破坏王大冒险.jpg
+2026-05-14 14:22:31 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/6534248/comments?sort=new_score&status=P
+2026-05-14 14:22:35 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:22:36 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/6534248/ | 短评数：15
+2026-05-14 14:22:36 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：卢旺达饭店 卢安达饭店_台_.jpg
+2026-05-14 14:22:41 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291822/comments?sort=new_score&status=P
+2026-05-14 14:22:46 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:22:47 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291822/ | 短评数：15
+2026-05-14 14:22:47 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：牯岭街少年杀人事件 A Brighter Summer Da.jpg | 大小：15.9KB
+2026-05-14 14:22:53 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292329/comments?sort=new_score&status=P
+2026-05-14 14:22:57 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:22:57 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292329/ | 短评数：15
+2026-05-14 14:22:57 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：恐怖游轮 汪洋血迷宮_台_    轮回三角.jpg
+2026-05-14 14:23:03 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3011051/comments?sort=new_score&status=P
+2026-05-14 14:23:08 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:23:09 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3011051/ | 短评数：15
+2026-05-14 14:23:09 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：东京教父 Tokyo Godfathers.jpg | 大小：33.1KB
+2026-05-14 14:23:15 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1310177/comments?sort=new_score&status=P
+2026-05-14 14:23:20 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:23:21 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1310177/ | 短评数：15
+2026-05-14 14:23:21 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：小偷家族 Shoplifters    Une Affair.jpg
+2026-05-14 14:23:27 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/27622447/comments?sort=new_score&status=P
+2026-05-14 14:23:32 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:23:33 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/27622447/ | 短评数：15
+2026-05-14 14:23:33 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：魔女宅急便 魔女琪琪_台_    小魔女限时专送.jpg | 大小：12.1KB
+2026-05-14 14:23:38 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1307811/comments?sort=new_score&status=P
+2026-05-14 14:23:44 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:23:44 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1307811/ | 短评数：15
+2026-05-14 14:23:44 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：冰川时代 冰河世纪    冰原历险记.jpg | 大小：12.8KB
+2026-05-14 14:23:51 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291578/comments?sort=new_score&status=P
+2026-05-14 14:23:58 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:23:59 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291578/ | 短评数：15
+2026-05-14 14:23:59 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：芙蓉镇 Hibiscus Town.jpg | 大小：26.0KB
+2026-05-14 14:24:06 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1297880/comments?sort=new_score&status=P
+2026-05-14 14:24:11 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:24:12 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1297880/ | 短评数：15
+2026-05-14 14:24:12 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：忠犬八公物语 八千公物语    阿八的故事.jpg | 大小：11.1KB
+2026-05-14 14:24:18 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1959195/comments?sort=new_score&status=P
+2026-05-14 14:24:23 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:24:23 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1959195/ | 短评数：15
+2026-05-14 14:24:23 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：岁月神偷 1969太空漫游    Echoes Of The.jpg
+2026-05-14 14:24:29 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3792799/comments?sort=new_score&status=P
+2026-05-14 14:24:35 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:24:36 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3792799/ | 短评数：15
+2026-05-14 14:24:36 - douban_crawler - requests_crawler.py:105 - INFO - 成功爬取：https://movie.douban.com/top250?start=175&filter= | 总数：25 | 成功解析：25
+2026-05-14 14:24:36 - douban_crawler - base_crawler.py:19 - INFO - 休眠 2.84 秒
+2026-05-14 14:24:39 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：遗愿清单 玩转身前事_港_    一路玩到挂_台_.jpg
+2026-05-14 14:24:46 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1867345/comments?sort=new_score&status=P
+2026-05-14 14:24:51 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:24:52 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1867345/ | 短评数：15
+2026-05-14 14:24:52 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：荒蛮故事 蛮荒故事    生命中最抓狂的小事_台_.jpg
+2026-05-14 14:24:57 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/24750126/comments?sort=new_score&status=P
+2026-05-14 14:25:03 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:25:04 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/24750126/ | 短评数：15
+2026-05-14 14:25:04 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：大佛普拉斯 The Great Buddha_.jpg
+2026-05-14 14:25:09 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/27059130/comments?sort=new_score&status=P
+2026-05-14 14:25:14 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:25:15 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/27059130/ | 短评数：15
+2026-05-14 14:25:15 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：源代码 启动原始码_台_    危机解密_港_.jpg
+2026-05-14 14:25:21 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3075287/comments?sort=new_score&status=P
+2026-05-14 14:25:27 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:25:27 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3075287/ | 短评数：15
+2026-05-14 14:25:27 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：花束般的恋爱 她和他的恋爱花期_港_    爱如花束 恋恋不.jpg | 大小：17.3KB
+2026-05-14 14:25:33 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/34874432/comments?sort=new_score&status=P
+2026-05-14 14:25:39 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:25:39 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/34874432/ | 短评数：15
+2026-05-14 14:25:40 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：白日梦想家 发梦王大历险_港_    白日梦冒险王_台_.jpg | 大小：26.8KB
+2026-05-14 14:25:45 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/2133323/comments?sort=new_score&status=P
+2026-05-14 14:25:50 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:25:51 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/2133323/ | 短评数：15
+2026-05-14 14:25:51 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：爱乐之城 星声梦里人_港_    乐来越爱你_台_.jpg | 大小：15.1KB
+2026-05-14 14:25:58 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25934014/comments?sort=new_score&status=P
+2026-05-14 14:26:03 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:26:04 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25934014/ | 短评数：15
+2026-05-14 14:26:04 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：疯狂的麦克斯4：狂暴之路 末日先锋：战甲飞车_港_    疯.jpg
+2026-05-14 14:26:10 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/3592854/comments?sort=new_score&status=P
+2026-05-14 14:26:16 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:26:17 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/3592854/ | 短评数：15
+2026-05-14 14:26:17 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：可可西里 Kekexili_ Mountain Patrol.jpg
+2026-05-14 14:26:23 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1308857/comments?sort=new_score&status=P
+2026-05-14 14:26:28 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:26:29 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1308857/ | 短评数：15
+2026-05-14 14:26:29 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：你看起来好像很好吃 你看起来很好吃_台_    你看上去好像.jpg
+2026-05-14 14:26:35 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/4848115/comments?sort=new_score&status=P
+2026-05-14 14:26:40 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:26:40 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/4848115/ | 短评数：15
+2026-05-14 14:26:40 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：贫民窟的百万富翁 一百万零一夜_港_    贫民百万富翁_台.jpg
+2026-05-14 14:26:46 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/2209573/comments?sort=new_score&status=P
+2026-05-14 14:26:51 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:26:52 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/2209573/ | 短评数：15
+2026-05-14 14:26:52 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：波西米亚狂想曲 波希米亚狂想曲：摇滚传说_港_    波希米.jpg | 大小：13.3KB
+2026-05-14 14:26:57 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/5300054/comments?sort=new_score&status=P
+2026-05-14 14:27:03 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:27:03 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/5300054/ | 短评数：15
+2026-05-14 14:27:04 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：城市之光 City Lights_ A Comedy Rom.jpg | 大小：16.8KB
+2026-05-14 14:27:10 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1293908/comments?sort=new_score&status=P
+2026-05-14 14:27:14 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:27:15 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1293908/ | 短评数：15
+2026-05-14 14:27:15 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：爆裂鼓手 鼓动真我_港_    进击的鼓手_台_.jpg
+2026-05-14 14:27:23 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25773932/comments?sort=new_score&status=P
+2026-05-14 14:27:31 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:27:31 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25773932/ | 短评数：15
+2026-05-14 14:27:32 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：青蛇 Green Snake.jpg | 大小：13.4KB
+2026-05-14 14:27:38 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1303394/comments?sort=new_score&status=P
+2026-05-14 14:27:44 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:27:44 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1303394/ | 短评数：15
+2026-05-14 14:27:44 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：哈利·波特与死亡圣器_上_ 哈利波特7：死神的圣物1_港.jpg
+2026-05-14 14:27:52 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/2051007/comments?sort=new_score&status=P
+2026-05-14 14:27:56 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:27:57 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/2051007/ | 短评数：15
+2026-05-14 14:27:57 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：无耻混蛋 希魔撞正杀人狂_港_    恶棍特工_台_.jpg
+2026-05-14 14:28:03 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1438652/comments?sort=new_score&status=P
+2026-05-14 14:28:09 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:28:09 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1438652/ | 短评数：15
+2026-05-14 14:28:10 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：东邪西毒 Ashes of Time.jpg | 大小：18.4KB
+2026-05-14 14:28:17 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292328/comments?sort=new_score&status=P
+2026-05-14 14:28:22 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:28:23 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292328/ | 短评数：15
+2026-05-14 14:28:23 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：大红灯笼高高挂 Raise The Red Lantern.jpg | 大小：20.6KB
+2026-05-14 14:28:29 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1293323/comments?sort=new_score&status=P
+2026-05-14 14:28:35 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:28:36 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1293323/ | 短评数：15
+2026-05-14 14:28:37 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：终结者2：审判日 未来战士2_港_    魔鬼终结者2_台_.jpg | 大小：21.5KB
+2026-05-14 14:28:44 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291844/comments?sort=new_score&status=P
+2026-05-14 14:28:49 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:28:50 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291844/ | 短评数：15
+2026-05-14 14:28:50 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：黑天鹅 夺命黑天鹅    霸王别鹅_豆友译名_.jpg
+2026-05-14 14:28:55 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1978709/comments?sort=new_score&status=P
+2026-05-14 14:28:59 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:29:00 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1978709/ | 短评数：15
+2026-05-14 14:29:00 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：新龙门客栈 New Dragon Gate Inn.jpg | 大小：23.6KB
+2026-05-14 14:29:06 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292287/comments?sort=new_score&status=P
+2026-05-14 14:29:12 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:29:12 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292287/ | 短评数：15
+2026-05-14 14:29:12 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：初恋这件小事 初恋那件小事_港_    暗恋那点小事.jpg
+2026-05-14 14:29:17 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/4739952/comments?sort=new_score&status=P
+2026-05-14 14:29:23 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:29:23 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/4739952/ | 短评数：15
+2026-05-14 14:29:24 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：千钧一发 变种异煞_港_    自然人.jpg | 大小：12.0KB
+2026-05-14 14:29:29 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1300117/comments?sort=new_score&status=P
+2026-05-14 14:29:34 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:29:35 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1300117/ | 短评数：15
+2026-05-14 14:29:35 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：人工智能 AI人工智慧.jpg | 大小：7.5KB
+2026-05-14 14:29:41 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1302827/comments?sort=new_score&status=P
+2026-05-14 14:29:47 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:29:47 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1302827/ | 短评数：15
+2026-05-14 14:29:47 - douban_crawler - requests_crawler.py:105 - INFO - 成功爬取：https://movie.douban.com/top250?start=200&filter= | 总数：25 | 成功解析：25
+2026-05-14 14:29:47 - douban_crawler - base_crawler.py:19 - INFO - 休眠 5.23 秒
+2026-05-14 14:29:53 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：崖上的波妞 悬崖上的金鱼姬    悬崖上的金鱼公主.jpg | 大小：23.5KB
+2026-05-14 14:29:58 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1959877/comments?sort=new_score&status=P
+2026-05-14 14:30:02 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:30:03 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1959877/ | 短评数：15
+2026-05-14 14:30:03 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：雨人 手足情未了_港_    手足情深.jpg | 大小：15.5KB
+2026-05-14 14:30:10 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291870/comments?sort=new_score&status=P
+2026-05-14 14:30:15 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:30:16 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291870/ | 短评数：15
+2026-05-14 14:30:16 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：虎口脱险 横冲直撞出重围_港_    大進擊_台_.jpg | 大小：21.2KB
+2026-05-14 14:30:23 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1296909/comments?sort=new_score&status=P
+2026-05-14 14:30:29 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:30:29 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1296909/ | 短评数：15
+2026-05-14 14:30:30 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：哈利·波特与凤凰社 哈利波特5：凤凰会的密令_港  台_.jpg | 大小：25.7KB
+2026-05-14 14:30:35 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1457217/comments?sort=new_score&status=P
+2026-05-14 14:30:41 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:30:42 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1457217/ | 短评数：15
+2026-05-14 14:30:42 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：彗星来的那一夜 相干性    相干效应.jpg
+2026-05-14 14:30:49 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25807345/comments?sort=new_score&status=P
+2026-05-14 14:30:54 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:30:55 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25807345/ | 短评数：15
+2026-05-14 14:30:55 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：罗生门 Rashomon.jpg | 大小：20.5KB
+2026-05-14 14:31:01 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291879/comments?sort=new_score&status=P
+2026-05-14 14:31:07 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:31:07 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291879/ | 短评数：15
+2026-05-14 14:31:07 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：海边的曼彻斯特 情系海边之城_港_.jpg
+2026-05-14 14:31:14 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25980443/comments?sort=new_score&status=P
+2026-05-14 14:31:19 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:31:20 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25980443/ | 短评数：15
+2026-05-14 14:31:20 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：恋恋笔记本 忘了·忘不了_港_    手札情缘_台_.jpg
+2026-05-14 14:31:24 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1309163/comments?sort=new_score&status=P
+2026-05-14 14:31:30 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:31:31 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1309163/ | 短评数：15
+2026-05-14 14:31:31 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：火星救援 火星任务_港_    绝地救援_台_.jpg | 大小：18.6KB
+2026-05-14 14:31:37 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25864085/comments?sort=new_score&status=P
+2026-05-14 14:31:41 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:31:42 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25864085/ | 短评数：15
+2026-05-14 14:31:42 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：真爱至上 真的恋爱了_港_    爱是您，爱是我_台_.jpg | 大小：26.1KB
+2026-05-14 14:31:48 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1292401/comments?sort=new_score&status=P
+2026-05-14 14:31:53 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:31:54 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1292401/ | 短评数：15
+2026-05-14 14:31:54 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：黑客帝国2：重装上阵 22世纪杀人网络2：决战未来_港_.jpg | 大小：19.9KB
+2026-05-14 14:32:00 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1304141/comments?sort=new_score&status=P
+2026-05-14 14:32:04 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:32:05 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1304141/ | 短评数：15
+2026-05-14 14:32:05 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：冰雪奇缘 魔雪奇缘_港_    冰雪大冒险.jpg | 大小：24.8KB
+2026-05-14 14:32:12 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/4202982/comments?sort=new_score&status=P
+2026-05-14 14:32:18 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:32:18 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/4202982/ | 短评数：15
+2026-05-14 14:32:18 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：步履不停 横山家之味_港  台_.jpg
+2026-05-14 14:32:26 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/2222996/comments?sort=new_score&status=P
+2026-05-14 14:32:31 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:32:32 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/2222996/ | 短评数：15
+2026-05-14 14:32:32 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：奇迹男孩 奇迹.jpg
+2026-05-14 14:32:38 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/26787574/comments?sort=new_score&status=P
+2026-05-14 14:32:44 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:32:45 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/26787574/ | 短评数：15
+2026-05-14 14:32:45 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：千年女优 Millennium Actress.jpg | 大小：29.8KB
+2026-05-14 14:32:50 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1307394/comments?sort=new_score&status=P
+2026-05-14 14:32:56 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:32:57 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1307394/ | 短评数：15
+2026-05-14 14:32:57 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：谍影重重2 叛谍追击2：机密圈套_港_    神鬼认证：神鬼.jpg
+2026-05-14 14:33:01 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1308767/comments?sort=new_score&status=P
+2026-05-14 14:33:07 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:33:07 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1308767/ | 短评数：15
+2026-05-14 14:33:07 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：战争之王 军火之王_台  港_.jpg
+2026-05-14 14:33:13 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1419936/comments?sort=new_score&status=P
+2026-05-14 14:33:19 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:33:20 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1419936/ | 短评数：15
+2026-05-14 14:33:20 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：蜘蛛侠：平行宇宙 蜘蛛侠：新纪元    蜘蛛人：新宇宙_台_.jpg | 大小：20.9KB
+2026-05-14 14:33:26 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/26374197/comments?sort=new_score&status=P
+2026-05-14 14:33:30 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:33:31 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/26374197/ | 短评数：15
+2026-05-14 14:33:31 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：攻壳机动队 Ghost in the Shell.jpg | 大小：29.3KB
+2026-05-14 14:33:37 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1291936/comments?sort=new_score&status=P
+2026-05-14 14:33:42 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:33:42 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1291936/ | 短评数：15
+2026-05-14 14:33:42 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：血钻 血钻石_台_    血腥钻石.jpg
+2026-05-14 14:33:49 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1428175/comments?sort=new_score&status=P
+2026-05-14 14:33:54 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:33:55 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1428175/ | 短评数：15
+2026-05-14 14:33:55 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：小姐 下女诱罪_港_    下女的诱惑_台_.jpg | 大小：13.5KB
+2026-05-14 14:34:00 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25977027/comments?sort=new_score&status=P
+2026-05-14 14:34:06 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:34:06 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25977027/ | 短评数：15
+2026-05-14 14:34:06 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：隐藏人物 NASA无名英雌_港_    关键少数_台_.jpg | 大小：20.6KB
+2026-05-14 14:34:13 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/26615208/comments?sort=new_score&status=P
+2026-05-14 14:34:18 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:34:19 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/26615208/ | 短评数：15
+2026-05-14 14:34:19 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：血观音 修罗花    The Bold, the Corru.jpg | 大小：29.0KB
+2026-05-14 14:34:25 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/27113517/comments?sort=new_score&status=P
+2026-05-14 14:34:31 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:34:32 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/27113517/ | 短评数：15
+2026-05-14 14:34:32 - douban_crawler - image_downloader.py:96 - INFO - 图片下载成功：魂断蓝桥 滑铁卢桥    断桥残梦.jpg | 大小：18.7KB
+2026-05-14 14:34:38 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/1293964/comments?sort=new_score&status=P
+2026-05-14 14:34:44 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:34:44 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/1293964/ | 短评数：15
+2026-05-14 14:34:44 - douban_crawler - image_downloader.py:54 - INFO - 图片已存在且有效：房间 不存在的房间_台_    抖室_港_.jpg
+2026-05-14 14:34:50 - douban_crawler - selenium_crawler.py:105 - INFO - 找到更多短评链接：https://movie.douban.com/subject/25724855/comments?sort=new_score&status=P
+2026-05-14 14:34:57 - douban_crawler - selenium_crawler.py:131 - INFO - 找到20条短评，取前15条
+2026-05-14 14:34:57 - douban_crawler - selenium_crawler.py:156 - INFO - 详情页爬取成功：https://movie.douban.com/subject/25724855/ | 短评数：15
+2026-05-14 14:34:57 - douban_crawler - requests_crawler.py:105 - INFO - 成功爬取：https://movie.douban.com/top250?start=225&filter= | 总数：25 | 成功解析：25
+2026-05-14 14:34:57 - douban_crawler - base_crawler.py:19 - INFO - 休眠 3.38 秒
+2026-05-14 14:35:01 - douban_crawler - requests_crawler.py:207 - INFO - 爬取完成 | 电影总数：250 | 评论总数：3750
+2026-05-14 14:35:01 - douban_crawler - requests_crawler.py:220 - INFO - 原始数据保存成功：data/raw\douban_top250_raw.json | 数据量：250
+2026-05-14 14:35:01 - douban_crawler - main.py:29 - INFO - 📌 开始将数据存入MySQL数据库...
+2026-05-14 14:35:01 - douban_crawler - mysql_handler.py:21 - INFO - 初始化MySQL连接...
+2026-05-14 14:35:01 - douban_crawler - mysql_handler.py:42 - INFO - MySQL连接成功
+2026-05-14 14:35:01 - douban_crawler - mysql_handler.py:56 - INFO - 数据库 douban 创建成功/已存在
+2026-05-14 14:35:01 - douban_crawler - mysql_handler.py:66 - INFO - 已选中数据库：douban
+2026-05-14 14:35:01 - douban_crawler - mysql_handler.py:88 - INFO - 找到SQL文件：d:\douban_movie_crawler\db\create_tables.sql
+2026-05-14 14:35:01 - douban_crawler - mysql_handler.py:106 - INFO - 通过SQL文件建表成功！
+2026-05-14 14:35:01 - douban_crawler - mysql_handler.py:114 - INFO - 数据库表：[]
+2026-05-14 14:35:01 - douban_crawler - mysql_handler.py:79 - ERROR - 数据库操作失败：(1146, "Table 'douban.movies' doesn't exist")
+2026-05-14 14:35:01 - douban_crawler - main.py:50 - ERROR - ❌ 数据库存储失败：(1146, "Table 'douban.movies' doesn't exist")
+2026-05-14 14:35:01 - douban_crawler - main.py:51 - ERROR - Traceback (most recent call last):
+  File "d:\douban_movie_crawler\main.py", line 39, in main
+    mysql_handler.insert_movie_batch(movies)
+  File "d:\douban_movie_crawler\db\mysql_handler.py", line 158, in insert_movie_batch
+    cursor.execute("TRUNCATE TABLE movies;")
+  File "D:\Anaconda\Lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "D:\Anaconda\Lib\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "D:\Anaconda\Lib\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda\Lib\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "D:\Anaconda\Lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Anaconda\Lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'douban.movies' doesn't exist")
+
+2026-05-14 14:35:01 - douban_crawler - mysql_handler.py:208 - INFO - MySQL连接已关闭
+2026-05-14 14:35:04 - douban_crawler - selenium_crawler.py:198 - INFO - Selenium 已关闭
+2026-05-14 14:35:04 - douban_crawler - requests_crawler.py:245 - INFO - 爬虫资源已全部释放
+2026-05-14 14:35:04 - douban_crawler - main.py:56 - INFO - 📌 开始数据清洗...
+2026-05-14 14:35:05 - douban_crawler - data_cleaner.py:24 - INFO - 原始数据加载完成，共250条
+2026-05-14 14:35:05 - douban_crawler - data_cleaner.py:34 - INFO - 开始数据清洗...
+2026-05-14 14:35:05 - douban_crawler - data_cleaner.py:35 - INFO - 清洗前缺失值统计：
+rank_num       0
+title          0
+rating         0
+comment_num    0
+info           0
+quote          0
+detail_url     0
+poster_path    0
+year           0
+runtime        0
+imdb           0
+dtype: int64
+2026-05-14 14:35:05 - douban_crawler - data_cleaner.py:61 - INFO - 清洗完成，剩余250条有效数据
+2026-05-14 14:35:05 - douban_crawler - data_cleaner.py:62 - INFO - 清洗后缺失值统计：
+rank_num       0
+title          0
+rating         0
+comment_num    0
+info           0
+quote          0
+detail_url     0
+poster_path    0
+year           0
+runtime        0
+imdb           0
+director       0
+genre          0
+actors         0
+dtype: int64
+2026-05-14 14:35:05 - douban_crawler - data_cleaner.py:150 - INFO - 清洗后数据已保存到：data/processed
+2026-05-14 14:35:05 - douban_crawler - main.py:73 - INFO - 📌 开始统计分析...
+2026-05-14 14:35:05 - douban_crawler - main.py:76 - INFO - 📊 高分电影Top10：
+2026-05-14 14:35:05 - douban_crawler - main.py:77 - INFO -  rank_num                                                 title  rating  comment_num  director
+        1                           肖申克的救赎 月黑高飞(港)    刺激1995(台)     9.7      3285843  弗兰克·德拉邦特
+        2                  霸王别姬 再见，我的妾    Farewell My Concubine     9.6      2424298       陈凯歌
+       19                                       控方证人 雄才伟略    情妇     9.6       744118    比利·怀尔德
+        3                                      泰坦尼克号 铁达尼号(港  台)     9.5      2499601   詹姆斯·卡梅隆
+        6                  美丽人生 一个快乐的传说(港)    Life Is Beautiful     9.5      1482915   罗伯托·贝尼尼
+        4                                          阿甘正传 福雷斯特·冈普     9.5      2431296  罗伯特·泽米吉斯
+       11                             辛德勒的名单 舒特拉的名单(港)    辛德勒名单     9.5      1247676 史蒂文·斯皮尔伯格
+      109                                       茶馆 The Teahouse     9.5       210946        谢添
+      161         背靠背，脸对脸 背对背，脸对脸    Back to Back, Face to Face     9.5       181678       黄建新
+      170 高山下的花环 卫国军魂(港)    Wreaths at the Foot of the Mountain     9.5       161570        谢晋
+2026-05-14 14:35:05 - douban_crawler - main.py:81 - INFO - 📊 热门导演分布（Top15）：
+2026-05-14 14:35:05 - douban_crawler - main.py:82 - INFO - director
+宫崎骏            8
+克里斯托弗·诺兰       6
+史蒂文·斯皮尔伯格      6
+李安             5
+彼特·道格特         4
+大卫·芬奇          4
+今敏             4
+是枝裕和           4
+王家卫            4
+詹姆斯·卡梅隆        3
+弗朗西斯·福特·科波拉    3
+大卫·叶茨          3
+理查德·林克莱特       3
+昆汀·塔伦蒂诺        3
+刘镇伟            3
+2026-05-14 14:35:05 - douban_crawler - main.py:86 - INFO - 📊 电影类型分布：
+2026-05-14 14:35:05 - douban_crawler - main.py:87 - INFO - 剧情     186
+爱情      55
+喜剧      53
+冒险      50
+奇幻      44
+犯罪      41
+动画      40
+惊悚      33
+动作      31
+悬疑      31
+科幻      25
+家庭      18
+传记      15
+战争      14
+古装      10
+历史      10
+同性       9
+音乐       9
+歌舞       7
+武侠       4
+儿童       4
+情色       3
+灾难       2
+恐怖       2
+西部       2
+运动       1
+纪录片      1
+2026-05-14 14:35:05 - douban_crawler - main.py:91 - INFO - 📊 评分与评价人数相关系数：0.309
+2026-05-14 14:35:05 - douban_crawler - main.py:93 - INFO - 📌 开始短评情感分析...
+2026-05-14 14:35:05 - douban_crawler - main.py:105 - INFO - 从爬虫数据中补充短评...
+2026-05-14 14:35:06 - douban_crawler - sentiment_analysis.py:22 - WARNING - 未找到自定义词典，使用默认分词
+2026-05-14 14:35:46 - douban_crawler - main.py:116 - INFO - 📊 短评情感倾向统计：
+2026-05-14 14:35:46 - douban_crawler - main.py:120 - INFO - 正面：3059条 (81.6%)
+2026-05-14 14:35:46 - douban_crawler - main.py:120 - INFO - 中性：406条 (10.8%)
+2026-05-14 14:35:46 - douban_crawler - main.py:120 - INFO - 负面：285条 (7.6%)
+2026-05-14 14:35:46 - douban_crawler - main.py:124 - INFO - 📊 短评关键词Top20：
+2026-05-14 14:35:46 - douban_crawler - main.py:125 - INFO - {'电影': 796, '自己': 425, '我们': 383, '故事': 349, '不是': 313, '这个': 312, '最后': 309, '还是': 287, '喜欢': 251, '世界': 240, '什么': 232, '他们': 231, '觉得': 230, '时候': 209, '这部': 207, '看到': 202, '生活': 194, '这样': 192, '知道': 182, '那个': 176}
+2026-05-14 14:35:46 - douban_crawler - main.py:127 - INFO - 📌 开始生成可视化图表...
+2026-05-14 14:35:47 - douban_crawler - visualization.py:51 - INFO - ✅ 评分分布直方图已生成
+2026-05-14 14:35:48 - douban_crawler - visualization.py:77 - INFO - ✅ 类型饼图已生成
+2026-05-14 14:35:49 - douban_crawler - visualization.py:136 - INFO - ✅ 评分-评价人数散点图已生成
+2026-05-14 14:35:50 - douban_crawler - visualization.py:169 - INFO - ✅ 年份趋势图已生成
+2026-05-14 14:35:56 - douban_crawler - visualization.py:200 - INFO - ✅ 短评词云已生成
+2026-05-14 14:35:57 - douban_crawler - visualization.py:227 - INFO - ✅ 情感分布直方图已生成
+2026-05-14 14:35:57 - douban_crawler - visualization.py:251 - INFO - ✅ 导演分布直方图已生成
+2026-05-14 14:35:57 - douban_crawler - main.py:139 - INFO - === 系统全部执行完成 ===
+2026-05-14 14:35:57 - douban_crawler - main.py:140 - INFO - 📁 所有结果已保存至：D:\douban_movie_crawler\data\processed
+2026-05-14 14:35:57 - douban_crawler - requests_crawler.py:245 - INFO - 爬虫资源已全部释放
